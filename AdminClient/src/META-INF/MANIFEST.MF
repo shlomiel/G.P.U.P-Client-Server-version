@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Main-Class: admin.main.AdminClient
+Class-Path: gson-2.1.jar gson-2.1.jar okhttp-4.9.1.jar kotlin-stdlib-1.4
+ .10.jar annotations-13.0.jar okio-2.8.0.jar kotlin-stdlib-1.4.10.jar ok
+ io-2.8.0.jar el-api.jar jasper.jar jsp-api.jar catalina.jar ecj-4.20.ja
+ r jasper-el.jar jaspic-api.jar tomcat-api.jar tomcat-jni.jar catalina-h
+ a.jar servlet-api.jar tomcat-dbcp.jar tomcat-jdbc.jar tomcat-util.jar c
+ atalina-ant.jar catalina-ssi.jar tomcat-coyote.jar websocket-api.jar to
+ mcat-i18n-cs.jar tomcat-i18n-de.jar tomcat-i18n-es.jar tomcat-i18n-fr.j
+ ar tomcat-i18n-ja.jar tomcat-i18n-ko.jar tomcat-i18n-ru.jar annotations
+ -api.jar catalina-tribes.jar tomcat-util-scan.jar tomcat-websocket.jar 
+ tomcat-i18n-pt-BR.jar tomcat-i18n-zh-CN.jar catalina-storeconfig.jar ja
+ kartaee-migration-1.0.0-shaded.jar okhttp-4.9.1.jar annotations-13.0.ja
+ r
+

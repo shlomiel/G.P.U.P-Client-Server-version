@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="1.7976931348623157E308" spacing="3.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.component.users.UsersListController">
+   <children>
+      <Label fx:id="chatUsersLabel" text="Users:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="8.0" top="8.0" />
+         </VBox.margin></Label>
+      <TableView fx:id="userTableView" prefHeight="404.0" prefWidth="310.0">
+        <columns>
+          <TableColumn fx:id="usernameCol" prefWidth="199.0" text="Username" />
+          <TableColumn fx:id="roleCol" prefWidth="110.0" text="Role" />
+        </columns>
+      </TableView>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</VBox>
